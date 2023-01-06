@@ -1,4 +1,8 @@
 # using opencv-python = "==4.5.5.62" because of autocomplete issues with PyCharm intellisense
+"""
+a script to convert images of any format to the standard .png format
+run it as -- python convert-to-png.py <input-directory> <output-directory>
+"""
 
 import os
 import sys
