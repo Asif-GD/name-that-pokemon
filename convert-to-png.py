@@ -21,4 +21,5 @@ if not os.path.exists(f".\\{output_folder}"):
 for file in files_list:
     image = cv.imread(f".\\{input_folder}{file}", cv.IMREAD_COLOR)
     only_file_name = os.path.splitext(file)[0]
+    # print(only_file_name)
     cv.imwrite(f".\\{output_folder}{only_file_name}.png", image)
